@@ -1,0 +1,6 @@
+.myclass h1{
+    background-color: blueviolet;
+}
+h1+p{
+    background-color: aqua;
+}

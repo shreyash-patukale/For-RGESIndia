@@ -1,0 +1,27 @@
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}.poem{
+    color: #ff0000;
+    line-height: 30px;
+}
+.cont{
+    text-align: center;
+}
+.poet_name{
+    color: #000000;
+}
+.linkk{
+    color: rgb(0, 128, 0);
+    text-decoration: none;
+}
+.butt{
+    background-color: white;
+    color: blueviolet;
+}
+.area::placeholder{
+    color: #000000;
+}
+.ozy{
+    text-decoration: underline black;
+}

@@ -1,0 +1,25 @@
+div {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0ms;
+  }
+    
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    10%  {background-color:yellow; left:1000px; top:500px;}
+    20%  {background-color:blue; left:800px; top:0px;}
+    30%  {background-color:green; left:200px; top:500px;}
+    40% {background-color:red; left:0px; top:0px;}
+    50%   {background-color:red; left:0px; top:0px;}
+    60%  {background-color:yellow; left:1000px; top:500px;}
+    70%  {background-color:blue; left:1000px; top:0px;}
+    80%  {background-color:green; left:40px; top:500px;}
+    90% {background-color:red; left:0px; top:0px;}
+    }
+      
+

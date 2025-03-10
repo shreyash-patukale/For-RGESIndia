@@ -1,0 +1,23 @@
+.main{
+    width: 500px;
+    height: 600px;
+    background-color:burlywood;
+    border: 0.12cm solid black;
+    margin: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0.5cm;
+    flex-wrap: wrap ;
+    flex-direction: row;
+}
+div{
+    width: 150px;
+    height: 150px;
+    border: 0.1cm solid black;
+    border-radius: 0.25cm;
+    text-align: center;
+    font-size: 3cm;
+    background-color: cadetblue;
+    color:azure;
+}

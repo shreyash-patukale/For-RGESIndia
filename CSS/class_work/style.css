@@ -1,0 +1,19 @@
+nav ul{
+    background-color: blue;
+}
+nav ul li{
+    background-color: aqua;
+    padding:5;
+}
+h3{
+    background-color: brown;
+}
+input[type="password"]{
+    color: brown;
+}
+button{
+    background-color: blueviolet;
+}
+button:hover{
+    background-color: rgb(255, 0, 34);
+}
