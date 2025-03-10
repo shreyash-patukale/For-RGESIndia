@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>HTML FORM VALIDATION</h1>
+        <form action="home.html" method="">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Must have 4 letters" minlength="4" pattern="[a-zA-Z]+" title="Name must be more Alphabets" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter valid email" required>
+            <br><br>
+            <label for="number">Number:</label>
+            <input type="number" id="number" placeholder="+00" min="01" max="99" width="50%" required> 
+            <input type="text" id="number" placeholder="Enter 10 numbers" pattern="[6789][0-9]{9}" required>
+            <br><br>
+            <input type="submit" value="Register">
+        </form>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
