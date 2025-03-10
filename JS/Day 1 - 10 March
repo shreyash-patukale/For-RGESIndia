@@ -1,4 +1,13 @@
+1	Comparison and Logical Operators
+2	If-Else Conditional Statements
+3	Nested If-Else Statements
+4	Else-If Ladder
+5	Switch Statement
+6	Alerts, Prompt, and String Manipulation
+
+------------------------------------------------------------------------------------------------------------------------------
 //Comparison and Logical Operators
+
 let w = 10;
 let q = 20;
 console.log(a>b);
